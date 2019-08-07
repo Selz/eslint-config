@@ -1,0 +1,25 @@
+{
+    "name": "@selz/eslint-config",
+    "version": "0.0.1",
+    "description": "Selz JavaScript ESLint configuration",
+    "license": "MIT",
+    "main": "es6.js",
+    "author": {
+        "name": "Selz Engineering",
+        "email": "engineer@selz.com",
+        "url": "https://selz.com"
+    },
+    "dependencies": {
+        "eslint": "^5.16.0",
+        "eslint-config-airbnb": "^17.1.1",
+        "eslint-config-prettier": "^5.1.0",
+        "eslint-loader": "^2.2.1",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.14.3",
+        "eslint-plugin-simple-import-sort": "^4.0.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
