@@ -2,6 +2,10 @@
     "name": "@selz/eslint-config",
     "version": "0.0.1",
     "description": "Selz JavaScript ESLint configuration",
+    "repository": "git://github.com/selz/eslint-config.git",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
     "license": "MIT",
     "main": "es6.js",
     "author": {
@@ -10,16 +14,18 @@
         "url": "https://selz.com"
     },
     "dependencies": {
-        "eslint-config-airbnb": "^17.1.1",
-        "eslint-config-prettier": "^5.1.0",
+        "eslint": "^6.2.1",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-config-prettier": "^6.1.0",
         "eslint-plugin-import": "^2.18.2",
         "eslint-plugin-jsx-a11y": "^6.2.3",
         "eslint-plugin-react": "^7.14.3",
         "eslint-plugin-simple-import-sort": "^4.0.0"
     },
     "peerDependencies": {
-        "eslint-config-airbnb": "^17.1.1",
-        "eslint-config-prettier": "^5.1.0",
+        "eslint": "^6.2.1",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-config-prettier": "^6.1.0",
         "eslint-plugin-import": "^2.18.2",
         "eslint-plugin-jsx-a11y": "^6.2.3",
         "eslint-plugin-react": "^7.14.3",
