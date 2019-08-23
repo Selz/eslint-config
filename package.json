@@ -1,6 +1,6 @@
 {
     "name": "@selz/eslint-config",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Selz JavaScript ESLint configuration",
     "repository": "git://github.com/selz/eslint-config.git",
     "publishConfig": {

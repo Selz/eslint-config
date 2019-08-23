@@ -3,6 +3,7 @@
  */
 
 module.exports = {
+    extends: ['prettier'],
     rules: {
         // 4 space indentation to match the rest of the platform
         indent: ['error', 4, { SwitchCase: 1 }],
