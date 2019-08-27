@@ -3,5 +3,27 @@
         {
             "path": "."
         }
-    ]
+    ],
+    "settings": {
+        // Linting
+        "stylelint.enable": true,
+        "css.validate": false,
+        "scss.validate": false,
+        "less.validate": false,
+        "javascript.validate.enable": false,
+        "eslint.autoFixOnSave": true,
+
+        // Formatting
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+
+        // Trim on save
+        "files.trimTrailingWhitespace": true,
+
+        // Special file associations
+        "files.associations": {
+            ".eslintrc": "jsonc"
+        }
+    }
 }
