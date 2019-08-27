@@ -4,7 +4,7 @@
 
 module.exports = {
     extends: ['eslint-config-airbnb', '@selz/eslint-config/rules/common'].map(require.resolve),
-    plugins: ['simple-import-sort', 'import'],
+    plugins: [],
     rules: {
         // Disallow use of variables before they are defined (overrides root config)
         'no-use-before-define': [
