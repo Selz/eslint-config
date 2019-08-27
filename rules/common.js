@@ -3,8 +3,12 @@
  */
 
 module.exports = {
-    extends: ['prettier'],
+    extends: ['plugin:prettier/recommended'],
+    plugins: ['simple-import-sort', 'import', 'prettier'],
     rules: {
+        // Prettier setup
+        'prettier/prettier': 'error',
+
         // 4 space indentation to match the rest of the platform
         indent: ['error', 4, { SwitchCase: 1 }],
 
