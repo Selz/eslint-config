@@ -1,6 +1,6 @@
 {
     "name": "@selz/eslint-config",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "Selz JavaScript ESLint configuration",
     "repository": "git://github.com/selz/eslint-config.git",
     "publishConfig": {
@@ -14,28 +14,30 @@
         "url": "https://selz.com"
     },
     "dependencies": {
-        "eslint": "^6.2.2",
-        "eslint-config-airbnb": "^18.0.1",
-        "eslint-config-prettier": "^6.1.0",
-        "eslint-plugin-import": "^2.18.2",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb": "^18.1.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-import": "^2.20.1",
         "eslint-plugin-jsx-a11y": "^6.2.3",
-        "eslint-plugin-prettier": "^3.1.0",
-        "eslint-plugin-react": "^7.14.3",
-        "eslint-plugin-react-hooks": "^2.0.1",
-        "eslint-plugin-simple-import-sort": "^4.0.0",
-        "prettier": "^1.18.2"
+        "eslint-plugin-prettier": "^3.1.2",
+        "eslint-plugin-react": "^7.19.0",
+        "eslint-plugin-react-hooks": "^2.5.1",
+        "eslint-plugin-simple-import-sort": "^5.0.2",
+        "prettier": "^1.19.1",
+        "prettier-eslint": "^9.0.1"
     },
     "peerDependencies": {
-        "eslint": "^6.2.2",
-        "eslint-config-airbnb": "^18.0.1",
-        "eslint-config-prettier": "^6.1.0",
-        "eslint-plugin-import": "^2.18.2",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb": "^18.1.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-import": "^2.20.1",
         "eslint-plugin-jsx-a11y": "^6.2.3",
-        "eslint-plugin-prettier": "^3.1.0",
-        "eslint-plugin-react": "^7.14.3",
-        "eslint-plugin-react-hooks": "^2.0.1",
-        "eslint-plugin-simple-import-sort": "^4.0.0",
-        "prettier": "^1.18.2"
+        "eslint-plugin-prettier": "^3.1.2",
+        "eslint-plugin-react": "^7.19.0",
+        "eslint-plugin-react-hooks": "^2.5.1",
+        "eslint-plugin-simple-import-sort": "^5.0.2",
+        "prettier": "^1.19.1",
+        "prettier-eslint": "^9.0.1"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"

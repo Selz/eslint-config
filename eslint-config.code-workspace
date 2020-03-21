@@ -11,9 +11,9 @@
         "scss.validate": false,
         "less.validate": false,
         "javascript.validate.enable": false,
-        "eslint.autoFixOnSave": true,
 
         // Formatting
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.tabSize": 4,
         "editor.insertSpaces": true,
         "editor.formatOnSave": true,

@@ -19,3 +19,7 @@
     "extends": "@selz/eslint-config/react"
 }
 ```
+
+# Publishing
+
+This is a private GitHub package. To publish, run `npm publish`.
